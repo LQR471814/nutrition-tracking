@@ -1,0 +1,7 @@
+#!/bin/sh
+vllm serve ibm-granite/granite-docling-258M \
+  --host 127.0.0.1 --port 8000 \
+  --max-num-seqs 512 \
+  --max-num-batched-tokens 8192 \
+  --enable-chunked-prefill \
+  --gpu-memory-utilization 0.9

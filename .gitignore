@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+
+tables/*.csv
+pdf_parse/*.csv
+pdf_parse/*.pdf
+*.db
+*.html
+
