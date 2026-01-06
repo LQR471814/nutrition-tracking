@@ -1,7 +1,10 @@
 - [x] get food data
 - [x] get nutritional requirements data
-- [ ] construct recipes based off of ingredient data and cooking retention factors
-- [ ] record portions consumed of recipes -> nutritional fulfilments data
-- [ ] do statistics and averages of time-series data
+- [x] construct recipes based off of ingredient data
+    - [ ] factor in cooking retention factors
+- [ ] visualize in a pretty fashion
+- [ ] (optional) historical analysis of data
 - [ ] build system: make this environment reproducible
+    - [ ] add scripts for pulling USDA food data
+    - [ ] add scripts parsing retention data
 
